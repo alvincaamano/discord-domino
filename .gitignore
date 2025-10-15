@@ -1,55 +1,9 @@
-# Node dependencies
-node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-package-lock.json
-yarn.lock
-.pnpm-debug.log
 
-# Build output
-dist/
-build/
-.cache/
-out/
-coverage/
-.next/
-vite-dist/
-temp/
-tmp/
 
-# Environment files
 .env
-.env.local
-.env.*.local
 
-# System files
 .DS_Store
-Thumbs.db
-
-# Editor directories and settings
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Logs
-*.log
-logs/
-*.pid
-*.seed
-*.pid.lock
-
-# Local server/SSL certs (if testing with HTTPS locally)
-*.pem
-*.crt
-*.key
-
-# GitHub Actions / CI temp files
-.github/workflows/*.bak
-.github/workflows/tmp/
-
-# Misc
-*.bak
-*.old
