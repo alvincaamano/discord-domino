@@ -1,55 +1,55 @@
-# Prerequisites
-*.d
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Build output
+dist/
+build/
+.cache/
+out/
+coverage/
+.next/
+vite-dist/
+temp/
+tmp/
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Environment files
+.env
+.env.local
+.env.*.local
 
-# Precompiled Headers
-*.gch
-*.pch
+# System files
+.DS_Store
+Thumbs.db
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Editor directories and settings
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Logs
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Local server/SSL certs (if testing with HTTPS locally)
+*.pem
+*.crt
+*.key
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# GitHub Actions / CI temp files
+.github/workflows/*.bak
+.github/workflows/tmp/
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
+# Misc
+*.bak
+*.old
